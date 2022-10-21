@@ -194,6 +194,9 @@ flex-wrap: wrap;
 width: 270px;
 height: 120px;
 margin-bottom: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
 background-color: #F5F4FA;
 border-radius: 4px;
 
@@ -279,6 +282,7 @@ font-size: 14px;
 font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 color: var(--color-black)}
    
 .team {
@@ -392,6 +396,8 @@ letter-spacing: 0.03em;
 .footer-container {
 width: 1200px;
 margin: 0 auto;
+display: flex;
+gap: 70px;
 }
 
 .address {
@@ -459,8 +465,18 @@ gap: 10px;
 .icon-link {
 width: 44px;
 height: 44px;
-background-color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(255, 255, 255, 0.1);;
 border-radius: 50%;
+}
+
+
+
+.slogan {
+text-transform: uppercase;
+margin-bottom: 20px;
 }
 
 

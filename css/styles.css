@@ -99,7 +99,7 @@ letter-spacing: 0.03em;
 }
 
 .address-mail {
-color: var(--color-accent);
+color: var(--color-text);
 cursor: default;
 text-decoration: none;
 letter-spacing: 0.03em;
@@ -114,6 +114,11 @@ cursor: default;
 color: var(--color-black);
 }
 
+.nav-link:hover, 
+.nav-link:focus {
+color: var(--color-accent);
+}
+
 .site-nav {
 display: flex;
 color: var(--color-black);
@@ -123,8 +128,8 @@ line-height: 1.14;
 gap: 50px;
     }
 
-.sait-nav:hover, .sait-nav:focus {
-color: var(--color-accent)F3;
+.site-nav:hover, .site-nav:focus {
+color: var(--color-accent);
 }
 
 .button:hover, .button:focus {
@@ -311,13 +316,42 @@ color: var(--color-black)
 }
 
 .team-text {
-margin-top: 10px;
+margin: 10px 0;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
 letter-spacing: 0.03em;
 color: var(--color-text)
  }
+
+ .clients {
+background-color: #F5F5F5;
+padding: 94px 0;
+}
+
+.container-clients {
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+gap: 30px;
+align-items: center;
+justify-content: center;
+}
+
+.block-clients {
+width: 170px;
+height: 92px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.block-clients:hover {
+border: solid var(--color-accent);
+}
 
 .portfolio-title {
 font-size: 18px;
@@ -330,6 +364,8 @@ color: var(--color-black)
 .imeg-text {
 text-align: center;
 padding: 30px 0;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .section-portfolio {
@@ -351,6 +387,10 @@ font-weight: 500;
 font-family: "Roboto";
 line-height: 1.62;
 letter-spacing: 0.03em;}
+
+.portfolio-button:hover {
+background-color: var(--color-accent);
+}
 
 .container-portfolio {
 width: 1200px;
@@ -452,7 +492,9 @@ letter-spacing: 0.03em;
 
 }
 
-.icon-item {
+.icon-link:hover {
+color: #FFFFFF;
+background-color: var(--color-accent);
 
 }
 

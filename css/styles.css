@@ -50,6 +50,7 @@ margin: 0 auto;
 .container-contact {
 display: flex;
 align-items: center;
+justify-content: center;
 padding: 0 15px
  }
 
@@ -69,8 +70,6 @@ flex-grow: 1;
 align-items: center;
  }
 
-
- 
 .logo {
 font-family: "Raleway", sans-serif;
 font-size: 26px;
@@ -98,12 +97,32 @@ text-decoration: none;
 letter-spacing: 0.03em;
 }
 
+/* .address-header:hover {
+color: var(--color-accent);
+} */
+
 .address-mail {
 color: var(--color-text);
 cursor: default;
 text-decoration: none;
 letter-spacing: 0.03em;
 }
+
+/* .address-mail:hover {
+color: var(--color-accent);
+} */
+
+.icon-nav:hover {
+color: var(--color-accent);
+}
+
+.addres-icon {
+margin-right: 10px;
+}
+
+/* .addres-icon:hover {
+background-color: var(--color-accent);
+} */
 
 
 /* sait-nav */
@@ -350,6 +369,7 @@ border-radius: 4px;
 }
 
 .block-clients:hover {
+color: var(--color-accent);
 border: solid var(--color-accent);
 }
 

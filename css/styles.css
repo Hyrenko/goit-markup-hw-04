@@ -97,9 +97,19 @@ text-decoration: none;
 letter-spacing: 0.03em;
 }
 
-/* .address-header:hover {
+.address-header:hover {
 color: var(--color-accent);
-} */
+fill: var(--color-accent);
+}
+
+.address-mail:hover {
+color: var(--color-accent);
+fill: var(--color-accent);
+}
+
+.addres-icon:hover {
+fill: var(--color-accent);
+}
 
 .address-mail {
 color: var(--color-text);
@@ -108,10 +118,6 @@ text-decoration: none;
 letter-spacing: 0.03em;
 }
 
-/* .address-mail:hover {
-color: var(--color-accent);
-} */
-
 .icon-nav:hover {
 color: var(--color-accent);
 }
@@ -119,11 +125,6 @@ color: var(--color-accent);
 .addres-icon {
 margin-right: 10px;
 }
-
-/* .addres-icon:hover {
-background-color: var(--color-accent);
-} */
-
 
 /* sait-nav */
 

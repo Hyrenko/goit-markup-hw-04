@@ -343,6 +343,22 @@ letter-spacing: 0.03em;
 color: var(--color-text)
  }
 
+.icon-link-team {
+width: 44px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+fill: #AFB1B8;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+ }
+
+ .icon-link-team:hover {
+fill: #FFFFFF;
+background-color: var(--color-accent);
+ }
+
  .clients {
 background-color: #F5F5F5;
 padding: 94px 0;
@@ -364,16 +380,19 @@ height: 92px;
 display: flex;
 align-items: center;
 justify-content: center;
+fill: #AFB1B8;;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
+
 }
 
 .block-clients:hover {
-color: var(--color-accent);
+fill: var(--color-accent);
 border: solid var(--color-accent);
 }
 
 .portfolio-title {
+padding: 20px 24px 4px 24px;
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
@@ -392,11 +411,11 @@ border-radius: 0px 0px 4px 4px;
 padding: 94px 0;
 }
 
-.portfolio-title:hover,
+/* .portfolio-title:hover,
 .portfolio-title:focus {
 background-color:var(--color-accent);
 color: var(--color-prymal);
-}
+} */
 
 .portfolio-button {
 height: 40px;
@@ -429,7 +448,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 img {
 display: block;
 max-width: 100%;
-height: auto;
 }
 
 .cart {
@@ -440,13 +458,12 @@ gap: 30px;}
 
 .cart-text {
 width: 370px;
-height: 110px;
-padding: 20px 24px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 }
 
 .portfolio-text {
+padding: 0 24px 20px 24px;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.87;
@@ -513,7 +530,6 @@ letter-spacing: 0.03em;
 }
 
 .icon-link:hover {
-color: #FFFFFF;
 background-color: var(--color-accent);
 
 }
@@ -530,6 +546,7 @@ height: 44px;
 display: flex;
 align-items: center;
 justify-content: center;
+fill: #FFFFFF;
 background: rgba(255, 255, 255, 0.1);;
 border-radius: 50%;
 }

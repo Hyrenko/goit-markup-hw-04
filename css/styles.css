@@ -80,6 +80,10 @@ text-decoration: none;
 margin-right: 94px;
 }
 
+.logo:hover {
+color: var(--color-accent);
+}
+
 .logo-text {
 color: var(--color-accent);
 }

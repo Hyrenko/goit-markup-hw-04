@@ -430,10 +430,15 @@ font-size: 16px;
 font-weight: 500;
 font-family: "Roboto";
 line-height: 1.62;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+border-color: #F5F4FA;
+border-radius: 4px;
+}
 
 .portfolio-button:hover {
 background-color: var(--color-accent);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .container-portfolio {
@@ -469,11 +474,12 @@ border: 1px solid #EEEEEE;
 
 .portfolio-text {
 padding: 0 24px 20px 24px;
+color: var(--color-text);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.87;
 letter-spacing: 0.03em;
-    }
+}
 
 .footer-container {
 width: 1200px;
